@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 RUN apt update -y && apt install software-properties-common -y
 RUN add-apt-repository ppa:deluge-team/stable -y
-RUN apt update && apt install deluged deluge-web python3-pip supervisor -y
+RUN apt update && apt install deluged deluge-web python3-pip supervisor nano -y
 RUN pip3 install flexget ntfy
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
