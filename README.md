@@ -9,9 +9,9 @@
 | Alpine | 474MB | work in progress|
 | Ubuntu | 792MB | works |
 
-| Package | Installed |
-|--------|---|
-| Deluge | yes |
-| Flexget | yes |
-| ntfy | yes | 
-| Supervisor | yes | 
+| Package | Installed | notes |
+|--------|---| --- | 
+| Deluge | yes | |
+| Flexget | yes | needs ./root/config/flexget/config.yml to start|
+| ntfy | yes | |
+| Supervisor | yes | |
