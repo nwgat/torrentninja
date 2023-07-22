@@ -9,9 +9,9 @@
 | Alpine | 474MB | work in progress|
 | Ubuntu | 792MB | works |
 
-| Package | Size |
+| Package | Installed |
 |--------|---|
-| Deluge | x |
-| Flexget | x |
-| ntfy | x | 
-| Supervisor | x | 
+| Deluge | yes |
+| Flexget | yes |
+| ntfy | yes | 
+| Supervisor | yes | 
