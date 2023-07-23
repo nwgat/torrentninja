@@ -6,8 +6,9 @@
 
 | OS | Size |---|
 |--------|---|---|
-| Alpine | 474MB | work in progress|
+| Alpine | 329MB | works |
 | Ubuntu | 792MB | works |
+
 
 | Package | Installed | notes |
 |--------|---| --- | 
