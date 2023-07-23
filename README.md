@@ -14,7 +14,7 @@
 |--------|---| --- | 
 | deluged | yes | deluge daemon |
 | deluge-web | yes | deluge webui on port 8112|
-| flexget | yes | needs ./root/config/flexget/config.yml to start|
+| flexget | yes | modify /config/flexget/config.yml to start|
 | ntfy | yes | notify tool that works wonderfully with flexget  |
 | Supervisor | yes | A Process Control System |
 
