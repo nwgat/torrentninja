@@ -1,6 +1,6 @@
 # TorrentNinja
-* `git clone https://github.com/nwgat/torrentninja && cd torrentninja`
-* `docker build -t torrentninja .`
+* `git clone https://github.com/nwgat/torrentninja`
+* `cd alpine && docker build -t torrentninja .` or `cd ubuntu && docker build -t torrentninja .`
 * `docker run -d --name torrentninja -v /home/$USER/ntconf:/root/.config -v /home/$USER/ntdata:/root/Downloads -p 6881:6881 -p 8112:8112 -p 58846:58846 torrentninja:latest`
 * `docker exec -it torrentninja supervisorctl status`
 
