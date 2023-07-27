@@ -6,14 +6,17 @@
 
 | OS | Size |---|
 |--------|---|---|
-| Alpine | 329MB | works |
+| Alpine | 329MB | works without ntfy |
 | Ubuntu | 792MB | works |
+
+Control with supervisor start,stop and restart, check log with tail -f deluged
+* docker exec -it torrentninja supervisorctl restart deluged
 
 
 | Package | Installed | notes |
 |--------|---| --- | 
 | deluged | yes | deluge daemon |
-| deluge-web | yes | deluge webui on port 8112|
+| deluge-web | yes | change password! Deluge webui on port 8112|
 | flexget | yes | modify /config/flexget/config.yml to start|
 | ntfy | yes | notify tool that works wonderfully with flexget  |
 | Supervisor | yes | A Process Control System |
