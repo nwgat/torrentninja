@@ -5,7 +5,6 @@ RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposi
 RUN apk update
 RUN apk add deluge flexget supervisor py3-pip
 RUN pip3 install deluge-client deluge_client
-RUN 
 CMD supervisord
 EXPOSE 6881
 EXPOSE 8112
