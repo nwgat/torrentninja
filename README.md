@@ -24,7 +24,7 @@ Control with supervisor start,stop and restart, check log with tail -f deluged
 | ntfy | yes | notify tool that works wonderfully with flexget  |
 | Supervisor | yes | A Process Control System |
 
-to add ntfy you can add this
+to add ntfy you can add this to flexget config.yml
 ```     exec:
       on_output:
         for_accepted:
