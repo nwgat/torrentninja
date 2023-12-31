@@ -22,6 +22,7 @@ Control with supervisor start,stop and restart, check log with tail -f deluged
 | deluge-web | yes | change password! Deluge webui on port 8112|
 | flexget | yes | run `docker exec -it torrentninja nano /root/.config/flexget/config.yml` to edit|
 | ntfy | yes | notify tool that works wonderfully with flexget  |
+| filebrowser | todo | a nifty web filebrowser on http |
 | Supervisor | yes | A Process Control System |
 
 to add ntfy you can add this to flexget config.yml
